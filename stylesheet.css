@@ -1,0 +1,18 @@
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url(computer2.jpg);
+  background-size: cover;
+  border-radius: 0;
+  min-height: 300px;
+  color: #FFF;
+  text-shadow: 2px 2px 3px #000;
+}
+.jumbotron h1 {
+  font-size: 3em;
+}
+.jumbotron p {
+  font-size: 1.25em;
+}
+.navbar {
+  margin-bottom: 1.5em;
+}
