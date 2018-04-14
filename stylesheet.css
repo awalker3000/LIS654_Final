@@ -33,6 +33,6 @@
   color: #F442E8;
   background-color: #343A40;
 }
-.ml-1 {
-  margin-left: ($spacer * .25) !important;
+.margin-left {
+  margin-left: 1.5em;
 }
