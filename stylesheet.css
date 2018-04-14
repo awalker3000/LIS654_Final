@@ -33,6 +33,6 @@
   color: #F442E8;
   background-color: #343A40;
 }
-.text-center {
-  text-align: center;
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
 }
