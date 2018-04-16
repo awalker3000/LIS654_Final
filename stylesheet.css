@@ -33,3 +33,17 @@
   color: #F442E8;
   background-color: #343A40;
 }
+.card-header {
+  background-image: linear-gradient(to right, #fad9f2, #d9e2f4);
+}
+.card .card-header .btn-link {
+  color: #212529;
+  text-shadow: 1px 1px #fff;
+  font-size: 1em;
+}
+.card .card-header .btn-link:active,
+.card .card-header .btn-link:hover,
+.card .card-header .btn-link:focus {
+  color: #a20fab;
+  text-decoration: none;
+}
