@@ -53,3 +53,8 @@ p {
 .p-space {
   margin-bottom: 3em;
 }
+.vertical-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
