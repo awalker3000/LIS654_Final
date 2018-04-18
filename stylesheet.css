@@ -50,3 +50,6 @@ p {
   color: #a20fab;
   text-decoration: none;
 }
+.p-space {
+  margin-bottom: 3em;
+}
