@@ -50,11 +50,20 @@ p {
   color: #a20fab;
   text-decoration: none;
 }
-.p-space {
-  margin-bottom: 3em;
-}
 .vertical-center{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("deadSeaScroll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 7em;
+}
+button.btn.btn-primary.btn-lg{
+  max-width: 150px;
 }
