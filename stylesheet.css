@@ -62,8 +62,16 @@ p {
     background-position: center center;
     color: #fff;
     height: 450px;
-    padding-top: 7em;
+    padding-top: 1em;
 }
 button.btn.btn-primary.btn-lg{
   max-width: 150px;
+  background-color: #F442E8;
+  border-color: #F442E8;
+}
+.transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
