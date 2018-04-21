@@ -75,3 +75,10 @@ button.btn.btn-primary.btn-lg{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.avatar {
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
