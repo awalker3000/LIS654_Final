@@ -50,16 +50,11 @@ p {
   color: #a20fab;
   text-decoration: none;
 }
-
 #accordion {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 .vertical-center{
   display: flex;
   flex-direction: column;
@@ -94,8 +89,7 @@ button.btn.btn-primary.btn-lg{
     height: 300px;
     border-radius: 50%;
     margin-bottom: 1.5em;
->>>>>>> 3a67394ef75a3bcaffba0fe50452ea57a2213415
-=======
+}
 .vertical-center{
   display: flex;
   flex-direction: column;
@@ -127,5 +121,4 @@ button.btn.btn-primary.btn-lg{
     height: 350px;
     border-radius: 50%;
     margin-bottom: 1.5em;
->>>>>>> f645d93ddf81664bd4f78f89458413aeb331d8c3
 }
