@@ -114,13 +114,45 @@ button.btn.btn-primary.btn-lg{
   justify-content: center;
 }
 .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("deadSeaScroll.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     color: #fff;
     height: 450px;
     padding-top: 1em;
+}
+#index-1 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#index-2 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#index-3 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#index-4 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#index-5 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#index-6 {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 button.btn.btn-primary.btn-lg{
   max-width: 150px;
