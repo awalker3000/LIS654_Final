@@ -33,6 +33,9 @@
   color: #F442E8;
   background-color: #343A40;
 }
+p {
+  margin-bottom: 1.5em;
+}
 .card-header {
   background-image: linear-gradient(to right, #fad9f2, #d9e2f4);
 }
@@ -47,6 +50,16 @@
   color: #a20fab;
   text-decoration: none;
 }
+
+#accordion {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 .vertical-center{
   display: flex;
   flex-direction: column;
@@ -81,6 +94,38 @@ button.btn.btn-primary.btn-lg{
     height: 300px;
     border-radius: 50%;
     margin-bottom: 1.5em;
-#accordion {
-  width: 85%;
+>>>>>>> 3a67394ef75a3bcaffba0fe50452ea57a2213415
+=======
+.vertical-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("deadSeaScroll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 1em;
+}
+button.btn.btn-primary.btn-lg{
+  max-width: 150px;
+  background-color: #F442E8;
+  border-color: #F442E8;
+}
+.transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.avatar {
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+>>>>>>> f645d93ddf81664bd4f78f89458413aeb331d8c3
 }
