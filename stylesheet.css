@@ -88,8 +88,6 @@ button.btn.btn-primary.btn-lg{
     border-radius: 50%;
     margin-bottom: 1.5em;
 >>>>>>> 3a67394ef75a3bcaffba0fe50452ea57a2213415
-#accordion {
-  width: 85%;
 =======
 .vertical-center{
   display: flex;
@@ -123,4 +121,7 @@ button.btn.btn-primary.btn-lg{
     border-radius: 50%;
     margin-bottom: 1.5em;
 >>>>>>> f645d93ddf81664bd4f78f89458413aeb331d8c3
+}
+#accordion {
+  width: 85%
 }
