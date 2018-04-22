@@ -50,6 +50,13 @@ p {
   color: #a20fab;
   text-decoration: none;
 }
+
+#accordion {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -121,7 +128,4 @@ button.btn.btn-primary.btn-lg{
     border-radius: 50%;
     margin-bottom: 1.5em;
 >>>>>>> f645d93ddf81664bd4f78f89458413aeb331d8c3
-}
-#accordion {
-  width: 85%
 }
