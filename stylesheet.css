@@ -57,6 +57,19 @@ p {
   margin-right: 10%;
 }
 
+.footer {
+  width: 100%;
+  height: 0.5%;
+  margin-top: 1%;
+  background-color: #343A40;
+  color: #fff;
+}
+
+.footer .by {
+  margin-left: 1.5em;
+  padding-top: 1em;
+}
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
