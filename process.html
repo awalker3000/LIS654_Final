@@ -112,8 +112,8 @@
       <div class="col-md-8">
         <h3>Acquire</h3>
         <p>Once you have websites in mind, you can start capturing all the data needed to successfully rebuild a versions of them from a particular points in time. You will need to acquire all of the code (HTML, CSS, Javascript, etc.) used to build the website,
-          plus images, audio and video files, and any other files essential for recreation.<br>
-        To do this, you can deploy a web crawler or spider. Crawlers are automated programs or scripts that browse the internet and harvest information from websites for various purposes. They aren’t just useful for web archivists - crawlers are used
+          plus images, audio and video files, and any other files essential for recreation.</p>
+        <p>To do this, you can deploy a web crawler or spider. Crawlers are automated programs or scripts that browse the internet and harvest information from websites for various purposes. They aren’t just useful for web archivists - crawlers are used
           by search engines to systematically index the web, and can be used for tasks such as checking the validity of links on a website.</p>
       </div>
     </div>
@@ -138,6 +138,13 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-8">
+        <p>In the web archiving world, the most widely used crawler is <a href="https://webarchive.jira.com/wiki/spaces/Heritrix/overview" target="_blank">Heritrix</a>.
+          It was built by the Internet Archive, and is open-source and extensible.
+          However, it isn’t always able to capture audio and video files and other dynamic content.
+          To combat this, the Internet Archive is now developing <a href="https://github.com/internetarchive/brozzler" target="_blank">brozzler</a>, which uses a browser to load pages, and works in conjunction with <a href="https://github.com/rg3/youtube-dl" target="_blank">youtube-dl</a> to download and capture these files.
+          Open-source crawlers are also being developed by individuals, and many of these tools utilize a browser in the same manner as brozzler.</p>
+
+        <p>Archiving services like <a href="https://webrecorder.io/" target="_blank">Webrecorder</a> don’t even use crawlers, and instead record your network traffic as you navigate through a website as a way of discovering URLs.</p>
         <p>For each website, you'll start with a URL or <strong>seed</strong> that serves as the crawler's entry point. In addition to this starting point, you will also need to establish your <strong>scope</strong>, or the extent of what you’d like to capture.</p>
         <ul>
           <li>Will you capture each page on each website, or will you archive only certain pages from each website?</li>
@@ -150,7 +157,13 @@
           <li>Giving your crawl a data or time limit</li>
           <li>Amount of links deep - small number</li>
         </ul>
-        <p>What do you get? A WARC file!</p>
+        <p>After the crawler has finished gathering the data within your scope, it will deliver it to you in a standardized way: as a Web ARChive (WARC) or ARC file.</p>
+          <p>An ARC format file consists of a one-line header describing what was captured in the crawl, followed by all of the harvested data in one block.
+            It is the original file format for archiving websites, used since 1996 by the Internet Archive to manage their website captures and other digital objects.</p>
+          <p>The WARC file format is an extension of ARC, and what you’re most likely to run into if you’re starting to archive today and don’t have any legacy data.
+            It provides more structure to the data gleaned from the site itself, and includes more secondary content, including assigned metadata and more information about the capture.</p>
+            <img src="#.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="An example of a WARC file">
+            <p>When you look at a WARC file, you can see the header, followed by the HTML, then CSS, and so on - all code, images, and documents from a website in the form of raw data, together in one long string.</p>
       </div>
     </div>
   </div>
@@ -170,7 +183,6 @@
 <strong>3</strong> copies of your data on<br><br>
 <strong>2</strong> different types of devices or storage media with<br><br>
 <strong>1</strong> copy stored offsite<br><br>
-Links to best practices pages<br>
 The amount of storage space necessary for each capture may vary wildly based on scope and the amount of data present on each website.</p>
 </div>
 </div>
@@ -185,6 +197,18 @@ The amount of storage space necessary for each capture may vary wildly based on 
       <div class="col-md-8">
         <h3>Enable access</h3>
         <p>All of the hard work you put into archiving endangered art historical web content will pay off once you provide access to the sites you’ve archived.</p>
+        <p>WARC files can be viewed and interacted with through web players.
+          The most widely used player, the <a href="http://archive.org/web/" target="_blank">Wayback Machine</a>, is also a product of the Internet Archive.</p>
+          <p>You can provide patrons with a link to your file through the players, many of which display the site along with technical metadata about the capture itself, such as the date, time, and who initiated the crawl.
+          There are many ways institutions have provided additional metadata about their captures and connected patrons to them through their website or catalog.</p>
+          <ul>
+            <li>The Library of Congress lists archived sites under their <a href="https://www.loc.gov/collections/" target="_blank">digital collections</a>, and includes automatically generated and cataloger enhanced MODSXML records with each archived site</li>
+            <li>NYU's Tamiment Library creates simple <a href="http://dlib.nyu.edu/findingaids/html/tamwag/web_arc_001/dsc.html" target="_blank">finding aids</a> using DACS for each of their archived websites, including a title, short description, subjects, and a link to the Wayback Machine</li>
+            <li>One could even create a MARC record for each site as you would for any other electronic resource</li>
+          </ul>
+          <p>For institutions using Archive-It, patrons can most easily access collections through the <a href="https://archive-it.org/explore?show=Collections" target="_blank">Archive-It website</a>.
+            Archive-It adds an interface on top of the Wayback Machine where each collection and set of captures is described and linked to.
+            The captures can be tagged with searchable <a href="https://support.archive-it.org/hc/en-us/articles/208332603-Add-edit-and-manage-your-metadata" target="_blank">Dublin Core</a> fields, or patrons can search the full text of websites.</p>
       </div>
     </div>
   </div>

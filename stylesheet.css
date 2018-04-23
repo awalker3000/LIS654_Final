@@ -119,11 +119,6 @@ button.btn.btn-primary.btn-lg{
     border-radius: 50%;
     margin-bottom: 1.5em;
 }
-.chelsea {
-  width: 350px;
-  height: auto;
-  padding-bottom: 1em;
-}
 .vertical-center{
   display: flex;
   flex-direction: column;
