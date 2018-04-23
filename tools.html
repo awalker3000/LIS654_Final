@@ -73,6 +73,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Acquisition</h3>
+        <hr class="pink">
         <h5>Archive-It</h5><p><a href="https://archive-it.org/organizations/484a" target="_blank">NYARC</a> has been <a href="https://wayback.archive-it.org/4847/*/http://bortolamigallery.com/" target="_blank"> archiving</a> the website of the <a href="http://bortolamigallery.com/" target="_blank">Bortolami Gallery</a> since 2014.
           Archive-It uses a combination of tools, including brozzler and youtube-dl, to crawl pages and save them as WARC files.
           Looking at NYARC’s latest capture of the gallery website on March 28th, 2018, it appears that all internal links and files on the site have been captured.
@@ -102,6 +103,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+      <hr class="pink">
       <h5>Internet Archive</h5>
       <p>Of course, the easiest way to get involved is to contribute to existing web archives.
         The Internet Archive offers the “save page now” button that allow you to activate a crawl with one click.</p>
@@ -142,10 +144,102 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+        <hr class="pink">
         <h5>Webrecorder</h5>
+        <p><a href="https://webrecorder.io/" target="_blank">Webrecorder</a> is a part of a suite of web archiving software developed by Rhizome.
+          Learn more about their web archiving efforts on our <a href="projects.html">projects page</a>.
+          Once you’ve established a free profile, you can record, store, and replay versions of websites.</p>
+            <div class="text-center">
+            <img src="tools-3-1.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="Screenshot of Webrecorder default collection">
+            <figcaption class="figure-caption">Starting my first collection using Webrecorder</figcaption><br></div>
+          <p>Rather than crawl a website by automatically following all possible links, Webrecorder records the actions you take in your browser.
+            This allows you to target specific pages, files, and media on a site, including those that would otherwise be unfindable or difficult to capture.
+            This makes Webrecorder a great tool for saving audiovisual, password protected, or form driven content as the scope is determined simply by the paths you take.</p>
+            <p>It does, however, involve a lot of clicking on your part.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-center">
+              <img src="tools-3-2.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="Screenshot of Webrecorder recording session">
+              <figcaption class="figure-caption">Navigating through the gallery website during a recording session</figcaption><br></div>
+            </div>
+            <div class="col-md-6">
+              <div class="text-center">
+                  <img src="tools-3-3.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="Screenshot of Webrecorder collection page">
+                  <figcaption class="figure-caption">My completed recording in my collection page</figcaption><br></div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+              <p>Should you find you want to add pages to a recording session, you can try to “patch” a capture later, but I found it easier to try to capture everything I wanted all at once.
+                Each capture can be named and added to your collections, which can be made private or public.
+                You can also download the WARC files of the sites you capture and save them yourself.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <hr class="pink">
+              <h5>WARCreate and WAIL</h5>
+              <p><a href="http://warcreate.com/" target="_blank">WARCreate</a> is another Google Chrome extension option for archiving websites.
+                It allows you to generate WARC files from the websites you visit.
+                However, I couldn’t get it to work! I suspect being an open-source Google Chrome browser extension created and maintained mainly by one person (Mat Kelly) is a part of the problem
+                - Chrome is updated very frequently, so ensuring an extension’s compatibility with these updates involves serious maintenance.
+                Its <a href="https://github.com/machawk1/warcreate" target="_blank">github page</a> does mention that it has gone through various release and retraction periods, so I look forward to trying it again in the future.</p>
+                <p><a href="http://machawk1.github.io/wail/" target="_blank">WAIL</a>, or Web Archiving Integration Layer, is another tool built by Mat Kelly, and more of an all-in-one application.
+                  It uses Heritrix to obtain WARC files.
+                  Again there are signs that its ongoing development is the mostly the work of one person rather than many - upon downloading it it prompted me to install Java 7, which has reached its end of life.
+                  I was, however, able to use Heritrix through the application to obtain a WARC file of the gallery website.</p>
+                  <img src="tools-4.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="Screenshot of WAIL archiving a website">
+                  <p>Having a GUI made it simple and straightforward to grab the file, but upon replay not all of the links I would have wanted to save had been captured.
+                    There are ways to monitor your crawl while it’s happening (under the 'advanced' tab), but I was unable to figure out a way to control the scope through this application.</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <hr class="pink">
+                  <h5>Squidwarc</h5>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 vertical-center">
+                    <p>I am still a beginner when it comes to using the command line, but wanted to explore one of the more advanced option for obtaining WARC files.
+                      With technical assistance (many thanks to <a href="https://www.linkedin.com/in/henryhsnow" target="_blank">Henry Snow</a>!), I tested out Squidwarc.
+                      <a href="https://github.com/N0taN3rd/Squidwarc" target="_blank">Squidwarc</a> is an archival crawler alternative to Heritrix that aims to be slightly easier for the personal archivist to use.
+                      Like brozzler, it remotely controls a browser to crawl through pages.</p>
+                      <p>To install and use you must be running macOS or Linux, and be comfortable installing and running programs using the command-line.
+                      Because it is a command-line based tool, you can easily schedule regular crawls once you’ve defined them.</p>
+                    <p>Once you’ve installed the software, you can prompt it to open a browser window by executing the “run-chrome.sh” script.
+                      In a new terminal window, you can open your config file and indicate whether you’d like to crawl just one page, the page and all same domain links, or the page and all links.
+                      For my first capture, I chose a depth of 1, which tells the crawler to capture files one link away from the main seed.
+                      As I thought this would not be sufficient to fully capture the site, I gave my next crawl a depth of 3.</p>
+                      <p>Once you’ve edited your scope, you can execute the “run-crawler.sh” script, and the program will crawl through the site indicated within the parameters you set in your config file.</p>
+                    </div>
+                    <div class="col-md-6 vertical-center">
+                      <div class="text-center">
+                      <img src="tools-5.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="Screenshot of config file">
+                      <figcaption class="figure-caption">My first config file with a depth of 1</figcaption><br></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <video src="Screencast-1.m4v" autoplay muted loop/>
+                    </div>
+                    <div class="col-md-6">
+                      <video src="Screencast-2.m4v" autoplay muted loop/>
+                    </div>
+                  </div>
+                </div>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
