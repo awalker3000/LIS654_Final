@@ -73,7 +73,10 @@ p {
   border-radius: 5px;
   background-color: #f293ec;
 }
-
+#copy {
+  height: 85%;
+  width: 85%;
+}
 #daily {
   height: 75%;
   width: 75%;
@@ -118,7 +121,6 @@ button.btn.btn-primary.btn-lg{
     border-radius: 50%;
     margin-bottom: 1.5em;
 }
-
 .chelsea {
   width: 350px;
   height: auto;
