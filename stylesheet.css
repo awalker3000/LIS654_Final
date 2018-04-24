@@ -129,22 +129,31 @@ button.btn.btn-primary.btn-lg{
     height: 450px;
     padding-top: 1em;
 }
+.card-title {
+  padding-top: 1em;
+  text-shadow: 2px 2px 3px #000;
+}
+.card-text {
+  font-size: 1.25em;
+  text-shadow: 2px 2px 3px #000;
+}
+
 #index-1 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-1.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index1_pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-2 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-2.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index2_pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-3 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-3.png");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index3_pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -171,10 +180,9 @@ button.btn.btn-primary.btn-lg{
   background-position: center center;
   border-radius: 5px;
 }
-button.btn.btn-primary.btn-lg{
-  max-width: 150px;
-  background-color: #F442E8;
-  border-color: #F442E8;
+.btn.btn-primary.btn-lg{
+  background-color: #f442e8;
+  border-color: #f442e8;
 }
 .transform {
   position: absolute;
