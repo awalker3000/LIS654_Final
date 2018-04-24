@@ -136,6 +136,7 @@ button.btn.btn-primary.btn-lg{
 .card-text {
   font-size: 1.25em;
   text-shadow: 2px 2px 3px #000;
+  justify-content: center;
 }
 
 #index-1 {
@@ -183,6 +184,7 @@ button.btn.btn-primary.btn-lg{
 .btn.btn-primary.btn-lg{
   background-color: #f442e8;
   border-color: #f442e8;
+  justify-content: center;
 }
 .transform {
   position: absolute;
