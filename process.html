@@ -146,10 +146,6 @@
 
         <p>Archiving services like <a href="https://webrecorder.io/" target="_blank">Webrecorder</a> don’t even use crawlers, and instead record your network traffic as you navigate through a website as a way of discovering URLs.</p>
         <p>For each website, you'll start with a URL or <strong>seed</strong> that serves as the crawler's entry point. In addition to this starting point, you will also need to establish your <strong>scope</strong>, or the extent of what you’d like to capture.</p>
-        <ul>
-          <li>Will you capture each page on each website, or will you archive only certain pages from each website?</li>
-          <li>How often does each page get updated? Is each change worthy of a new capture?</li>
-        </ul>
         <p>Websites often contain vast amounts of links, and which can turn into prohibitive amounts of data. This can be both cumbersome to acquire and access, as well as expensive to store. Other elements, such as event calendars, can cause your crawler
           to crawl infinitely into the future. You can avoid these crawler traps and other difficulties by:</p>
         <ul>
@@ -158,13 +154,13 @@
           <li>Giving your crawl a small depth - the depth is the number of links away from the main seed that the crawler will capture.
             If every piece of the website you want is one link away from the main seed, you can give your crawl a depth of one, and so on</li>
         </ul>
-        <p>After the crawler has finished gathering the data within your scope, it will deliver it to you in a standardized way: as a <a href="http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.0/" target="_blank">Web ARChive (WARC)</a> or <a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000235.shtml" target="_blank">ARC</a> file.</p>
+        <p>After the crawler has finished gathering the data within your scope, it will deliver it to you in a standardized way, most likely as a <a href="http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.0/" target="_blank">Web ARChive (WARC)</a> or <a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000235.shtml" target="_blank">ARC</a> file.</p>
           <p>An ARC format file consists of a one-line header describing what was captured in the crawl, followed by all of the harvested data in one block.
             It is the original file format for archiving websites, used since 1996 by the Internet Archive to manage their website captures and other digital objects.</p>
           <p>The WARC file format is an extension of ARC, and what you’re most likely to run into if you’re starting to archive today and don’t have any legacy data.
             It provides more structure to the data gleaned from the site itself, and includes more secondary content, including assigned metadata and more information about the capture.</p>
             <img src="warc.png" class="figure-img img-responsive img-thumbnail img-fluid" alt="An example of a WARC file">
-            <p>When you look at a WARC file, you can see the header, followed by the HTML, then CSS, and so on - all code, images, and documents from a website in the form of raw data, together in one long string.</p>
+            <p>When you look at a WARC file, you can see the header, followed by the payload - all code, images, and documents from a website in the form of raw data, together in one long string.</p>
       </div>
     </div>
   </div>
