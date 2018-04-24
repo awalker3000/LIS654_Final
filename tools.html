@@ -251,7 +251,9 @@
                   <div class="col-md-12">
                 <br><p>The second capture took significantly longer as the crawler had much more to process.
                   In the end I obtained WARC files of the site, each reflecting the different scope I outlined.
-                  My first crawl, with the depth of 1, produced an 18 MB WARC file, while the second crawl produced a 323.2 MB WARC file.</p>
+                  My first crawl, with the depth of 1, produced 18 MB of WARC files, while the second crawl produced 323.2 MB of WARC files.
+                  Unfortunately, Squidwarc creates a WARC file for each URL crawled and outputs them as files in a folder rather than in one big WARC file.
+                  Tools like <a href="https://github.com/maturban/WARCMerge" target="_blank">WARCmerge</a> could be used to merge the files into one.</p>
                 </div>
               </div>
             </div>
@@ -268,8 +270,8 @@
         <h5>Webrecorder player</h5>
         <hr class="pink">
         <h5>Oldweb.today</h5>
+        <h3>More resources to explore</h3>
         <hr class="pink">
-        <h5>More resources to explore</h5>
         <p>These are just a few of many tools you can use to acquire and replay websites, not to mention the many storage, metadata, and automation options that are currently being developed.
         If you are tech-savvy, you can explore many more advanced, command-line based tools, or even modify open-source software to create your own custom tools.</p>
         <ul>
