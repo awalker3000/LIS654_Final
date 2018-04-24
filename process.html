@@ -155,9 +155,10 @@
         <ul>
           <li>Limiting your scope to certain pages of a site</li>
           <li>Giving your crawl a data or time limit</li>
-          <li>Amount of links deep - small number</li>
+          <li>Giving your crawl a small depth - the depth is the number of links away from the main seed that the crawler will capture.
+            If every piece of the website you want is one link away from the main seed, you can give your crawl a depth of one, and so on</li>
         </ul>
-        <p>After the crawler has finished gathering the data within your scope, it will deliver it to you in a standardized way: as a Web ARChive (WARC) or ARC file.</p>
+        <p>After the crawler has finished gathering the data within your scope, it will deliver it to you in a standardized way: as a <a href="http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.0/" target="_blank">Web ARChive (WARC)</a> or <a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000235.shtml" target="_blank">ARC</a> file.</p>
           <p>An ARC format file consists of a one-line header describing what was captured in the crawl, followed by all of the harvested data in one block.
             It is the original file format for archiving websites, used since 1996 by the Internet Archive to manage their website captures and other digital objects.</p>
           <p>The WARC file format is an extension of ARC, and what you’re most likely to run into if you’re starting to archive today and don’t have any legacy data.
