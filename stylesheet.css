@@ -129,6 +129,9 @@ button.btn.btn-primary.btn-lg{
     height: 450px;
     padding-top: 1em;
 }
+.card {
+  margin-bottom: 1.5em;
+}
 .card-title {
   padding-top: 1em;
   text-shadow: 2px 2px 3px #000;
