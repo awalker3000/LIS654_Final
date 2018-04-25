@@ -72,18 +72,7 @@ p {
   border-radius: 5px;
   background-color: #f293ec;
 }
-.copy {
-  height: 85%;
-  width: 85%;
-}
-.daily {
-  height: 75%;
-  width: 75%;
-}
-.curation {
-  height: 85%;
-  width: 85%;
-}
+
 .vertical-center{
   display: flex;
   flex-direction: column;
@@ -129,9 +118,6 @@ button.btn.btn-primary.btn-lg{
     height: 450px;
     padding-top: 1em;
 }
-.card {
-  margin-bottom: 1.5em;
-}
 .card-title {
   padding-top: 1em;
   text-shadow: 2px 2px 3px #000;
@@ -143,47 +129,48 @@ button.btn.btn-primary.btn-lg{
 }
 
 #index-1 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index1_pink.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-2 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index2_pink.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-3 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index3_pink.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-4 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-4.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-5 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-5.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
 #index-6 {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("index-6.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
+
 .btn.btn-primary.btn-lg {
   background-color: #f442e8;
   border-color: #f442e8;
