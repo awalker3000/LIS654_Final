@@ -117,6 +117,11 @@ button.btn.btn-primary.btn-lg{
     color: #fff;
     height: 450px;
     padding-top: 1em;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
 }
 .card {
   margin-bottom: 1em;
@@ -130,60 +135,10 @@ button.btn.btn-primary.btn-lg{
   text-shadow: 2px 2px 3px #000;
   justify-content: center;
 }
-
-#index-1 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-#index-2 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-#index-3 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-#index-4 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-#index-5 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-#index-6 {
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("cardGradient2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-}
-
 .btn.btn-primary.btn-lg {
   background-color: #f442e8;
   border-color: #f442e8;
   justify-content: center;
-}
-.transform {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .avatar {
     vertical-align: middle;
