@@ -117,16 +117,6 @@ button.btn.btn-primary.btn-lg{
   flex-direction: column;
   justify-content: center;
 }
-.bg-overlay {
-    color: #fff;
-    height: 450px;
-    padding-top: 1em;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0)), url("cardGradient2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 5px;
-}
 #index1 {
     color: #fff;
     height: 450px;
