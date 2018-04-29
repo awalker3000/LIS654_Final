@@ -24,6 +24,13 @@
 .navbar-dark .navbar-nav .nav-link:focus {
   color: #F442E8;
 }
+.by a:active,
+.by a:hover,
+.by a:focus,
+.by a:default,
+.by a {
+  color: #FFF;
+}
 .dropdown-item {
   color: #FFF;
 }
@@ -76,20 +83,10 @@ p {
   border-radius: 5px;
   background-color: #f293ec;
 }
-
 .vertical-center{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("deadSeaScroll.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    height: 450px;
-    padding-top: 1em;
 }
 button.btn.btn-primary.btn-lg{
   max-width: 150px;
@@ -177,7 +174,6 @@ button.btn.btn-primary.btn-lg{
     background-position: center center;
     border-radius: 5px;
 }
-
 .card {
   margin-bottom: 1em;
 }
